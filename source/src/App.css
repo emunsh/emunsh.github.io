@@ -1,0 +1,58 @@
+.searchForm {
+    box-sizing: border-box;
+    max-width:850px;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+.listOfFollowers {
+    box-sizing: border-box;
+    max-width:850px;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.follower__user {
+    box-sizing: border-box;
+    width: 150px;
+    margin: 10px 10px;
+    border: solid 1px gray;
+    border-radius:4px;
+    text-align:center;
+}
+.follower__avatar img {
+    max-width:100%;
+    width:100%;
+}
+.userInfo {
+    max-width:320px;
+    width:100%;
+    margin: 0 auto;
+}
+.userInfo img {
+    display: block;
+    max-width:120px;
+    margin-right: auto;
+}
+.sort {
+    max-width:320px;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.search {
+    max-width:320px;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.search input {
+    display: inline-block;
+}
+.error {
+    color: red;
+    text-align:center;
+}
